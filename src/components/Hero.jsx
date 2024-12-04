@@ -51,7 +51,7 @@ const Hero = () => {
             </a>
           </div>
           <a
-            href='/public/Benson-Langford.pdf'
+            href='/Benson-Langford.pdf'
             target='_blank'
             rel='noopener noreferrer'
             download={true}
