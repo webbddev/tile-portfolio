@@ -23,8 +23,8 @@ const Copyright = () => {
         >
           &copy; {currentYear}{' '}
           <span className='font-semibold text-white'>
-            Nicholas's Portfolio
-          </span>{' '}
+            Nicholas&apos;s Portfolio
+          </span>
           All right reserved
         </motion.div>
       </div>
