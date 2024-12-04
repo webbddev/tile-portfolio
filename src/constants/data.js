@@ -31,10 +31,10 @@ export const PROJECTS = [
   {
     id: 1,
     title: 'E-commerce Website',
-    description:
-      'A full-featured e-commerce website built with React and Node.js.',
+    description: 'A full-featured e-commerce website built with React and Node.js.',
     imgSrc: project1,
     link: 'https://example.com/ecommerce-website',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Express']
   },
   {
     id: 2,
@@ -43,6 +43,7 @@ export const PROJECTS = [
       'A social media application with real-time chat and notifications.',
     imgSrc: project2,
     link: 'https://example.com/social-media-app',
+    technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
   },
   {
     id: 3,
@@ -51,6 +52,7 @@ export const PROJECTS = [
       'A personal portfolio website to showcase projects and skills.',
     imgSrc: project3,
     link: 'https://example.com/portfolio-website',
+    technologies: ['HTML', 'CSS', 'React'],
   },
   {
     id: 4,
@@ -59,6 +61,7 @@ export const PROJECTS = [
       'A blogging platform with user authentication and content management.',
     imgSrc: project4,
     link: 'https://example.com/blog-platform',
+    technologies: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
   },
   {
     id: 5,
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description: 'A task management tool to organize and prioritize work.',
     imgSrc: project5,
     link: 'https://example.com/task-management-tool',
+    technologies: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
   },
   {
     id: 6,
@@ -74,6 +78,7 @@ export const PROJECTS = [
       'An online learning platform offering various courses and resources.',
     imgSrc: project6,
     link: 'https://example.com/online-learning-platform',
+    technologies: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
   },
   {
     id: 7,
@@ -81,6 +86,7 @@ export const PROJECTS = [
     description: 'A mobile application to track fitness activities and goals.',
     imgSrc: project7,
     link: 'https://example.com/fitness-tracker',
+    technologies: ['HTML', 'CSS', 'React'],
   },
   {
     id: 8,
@@ -88,6 +94,7 @@ export const PROJECTS = [
     description: 'An app for browsing and saving various cooking recipes.',
     imgSrc: project8,
     link: 'https://example.com/recipe-app',
+    technologies: ['HTML', 'CSS', 'React', 'Redux', 'Firebase'],
   },
   {
     id: 9,
@@ -96,10 +103,9 @@ export const PROJECTS = [
       'A weather dashboard providing current weather data and forecasts.',
     imgSrc: project9,
     link: 'https://example.com/weather-dashboard',
+    technologies: ['HTML', 'CSS', 'React', 'Redux', 'Firebase'],
   },
-];
-
-export const ABOUT =
+];export const ABOUT =
   'As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.';
 
 export const EXPERIENCES = [

@@ -6,3 +6,4 @@ export { default as Projects } from './Projects';
 export { default as Work } from './Work';
 export { default as Contact } from './Contact';
 export { default as Copyright } from './Copyright';
+export { default as ProjectCard } from './ProjectCard';

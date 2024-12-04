@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section>
       <div className='flex flex-col items-center justify-center'>
-        <h1 className='mt-16 overflow-hidden text-[14vw] sm:text-[12vw] font-semibold uppercase leading-none mb-2'>
+        <h1 className='mt-16 overflow-hidden text-[15vw] sm:text-[12vw] font-semibold uppercase leading-none mb-2'>
           Nicholas <br /> Tetradov
         </h1>
         {/* <h3 className='bg-gradient-to-r from-stone-200 to-stone-400 bg-clip-text text-[25px] md:text-[2vw] tracking-normal font-normal text-transparent'>
