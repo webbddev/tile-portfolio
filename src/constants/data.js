@@ -21,7 +21,7 @@ export const LINKS = [
   { id: 'projects', name: 'projects' },
   { id: 'about', name: 'about' },
   { id: 'experience', name: 'experience' },
-  { id: 'contact', name: 'Contact' },
+  { id: 'contact', name: 'contact' },
 ];
 
 export const MARQUEE_TEXT =
@@ -147,7 +147,7 @@ export const SOCIAL_MEDIA_LINKS = [
 ];
 
 export const CONTACT = {
-  text: 'I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, I\'d love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.',
+  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, I'd love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
   email: 'nikolay.tetradov@gmail.com',
   phone: '+373 (0) 78 369 569)',
 };
