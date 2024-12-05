@@ -33,14 +33,23 @@
 // };
 
 // export default Projects;
+'use client';
 
+import {motion} from 'framer-motion'
 import { PROJECTS } from '../constants/data';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
     <section className='p-8' id='projects'>
-      <h2 className='my-10 text-center text-3xl lg:text-8xl'>My Work</h2>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1 }}
+        className='my-20 text-center text-4xl lg:text-8xl font-bold'
+      >
+        My Work
+      </motion.h2>
       <div className='columns-1 gap-4 md:columns-2 lg:columns-3 xl:columns-4'>
         {PROJECTS.map((project) => (
           <a

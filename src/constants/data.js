@@ -31,10 +31,11 @@ export const PROJECTS = [
   {
     id: 1,
     title: 'E-commerce Website',
-    description: 'A full-featured e-commerce website built with React and Node.js.',
+    description:
+      'A full-featured e-commerce website built with React and Node.js.',
     imgSrc: project1,
     link: 'https://example.com/ecommerce-website',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express']
+    technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
   },
   {
     id: 2,
@@ -105,23 +106,32 @@ export const PROJECTS = [
     link: 'https://example.com/weather-dashboard',
     technologies: ['HTML', 'CSS', 'React', 'Redux', 'Firebase'],
   },
-];export const ABOUT =
+];
+export const ABOUT =
   'As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.';
 
 export const EXPERIENCES = [
   {
     company: 'Google',
+    location: 'Mountain View, CA, USA', // Add location here
+
     role: 'Software Engineer',
     year: '12/2023 - Present',
-    description:
+    description: [
       'Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.',
+    ],
+    technologies: ['Javascript', 'React.js', 'Next.js', 'mongoDB'],
   },
   {
     company: 'Facebook',
+    location: 'Mountain View, CA, USA', // Add location here
+
     role: 'Frontend Developer',
     year: '01/2021 - 11/2023',
-    description:
+    description: [
       'Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.',
+    ],
+    technologies: ['Javascript', 'React.js', 'Next.js', 'mongoDB'],
   },
 ];
 

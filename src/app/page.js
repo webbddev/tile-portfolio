@@ -7,17 +7,19 @@ import {
   Projects,
   Work,
   Copyright,
+  Experience,
 } from '../components';
 
 const App = () => {
   return (
-    <div className='font-light text-white antialiased selection:bg-lime-300 selection:text-black'>
+    <div className=' text-white overflow-hidden'>
       <Navbar />
       <Hero />
       <Marquee />
       <Projects />
       <About />
       <Work />
+      <Experience/>
       <Contact />
       <Copyright />
     </div>

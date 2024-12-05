@@ -5,11 +5,11 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        oswald: ['var(--font-oswald)'],
+        merriweather: ['var(--font-merriweather)'],
       },
     },
   },

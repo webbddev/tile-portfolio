@@ -1,23 +1,20 @@
 import localFont from 'next/font/local';
 import './globals.css';
-import { Oswald } from 'next/font/google';
+import { Oswald, Merriweather } from 'next/font/google';
 
 const oswald = Oswald({
   subsets: ['latin'],
   weight: ['200', '300', '400', '500', '600', '700'],
   display: 'swap',
+  variable: '--font-oswald', // Add this
 });
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+const merriweather = Merriweather({
+  subsets: ['latin'],
+  weight: ['300', '400', '700', '900'],
+  display: 'swap',
+  variable: '--font-merriweather', // Add this
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -27,7 +24,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${oswald.className} antialiased`}>{children}</body>
+      <body
+        className={`${oswald.variable} ${merriweather.variable} font-oswald antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
